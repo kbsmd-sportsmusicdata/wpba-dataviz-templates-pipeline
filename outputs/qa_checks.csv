@@ -1,0 +1,13 @@
+check_name,status,details
+source_rows_loaded,pass,137 source rows loaded
+blank_unnamed_columns_removed,pass,2 blank/unnamed columns removed
+numeric_coercion_completed,pass,0 configured numeric columns remain object dtype
+duplicate_player_game_rows,pass,0 duplicate player-game rows
+team_game_row_count,pass,16 team-game rows; 16 unique source team-games
+team_score_metadata_consistency,pass,0 score metadata mismatches
+team_points_sum_equals_team_score,pass,0 team rows where player points do not equal team_score
+possessions_non_negative,pass,0 negative possession rows
+no_infinite_values,pass,0 infinite values found
+percentiles_between_0_and_100,pass,0 percentile values outside 0-100
+completed_games_only_in_season_summaries,pass,0 unscored team-game rows excluded
+missing_opponent_row_count,pass,0 team-game rows missing an opponent row
