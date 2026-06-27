@@ -15,6 +15,8 @@ The pipeline turns the local workbook `data/wpba_stats_2026_clean.xlsx` into cle
 - QA checks
 - Helper Excel workbook with all output tables
 
+Target calculated stats are listed in `docs/target_stats.md`.
+
 ## Run The Pipeline
 
 ```bash
@@ -38,6 +40,33 @@ Generated files land in `outputs/`:
 python3 -m unittest discover tests
 ```
 
+## Run First-Pass Analysis
+
+After the processed datasets exist, run:
+
+```bash
+python3 src/analyze_wpba_outputs.py --input-dir outputs --output-dir analysis --top-n 5 --min-player-minutes 40
+```
+
+Generated analysis files land in `analysis/`:
+
+- `team_metric_leaders.csv`
+- `player_metric_leaders.csv`
+- `analysis_summary.md`
+
+These files are for deciding which player/team signals are strong enough to turn into template visuals.
+
+## GitHub Actions
+
+Two manual workflows are available:
+
+- `Process WPBA Metrics`: runs tests, rebuilds the processed datasets from `data/wpba_stats_2026_clean.xlsx`, and uploads the `outputs/` folder as an artifact.
+- `Analyze WPBA Processed Outputs`: rebuilds the processed datasets, runs first-pass analysis, and uploads the `analysis/` folder as an artifact.
+
+No GitHub Pages workflow is included at this stage.
+
+The manual analysis workflow includes a `min_player_minutes` input so very small samples do not dominate per-minute leaderboards.
+
 ## Source Workbook Contract
 
 Required sheet:
@@ -58,4 +87,3 @@ The pipeline recalculates basketball rates from raw fields rather than trusting 
 - Player of the Game
 - Bench Spark
 - Since Last Meeting
-

@@ -1,0 +1,40 @@
+name: Process WPBA Metrics
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/wpba_stats_2026_clean.xlsx"
+      - "src/**"
+      - "tests/**"
+      - "requirements.txt"
+      - ".github/workflows/process_wpba_metrics.yml"
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover tests
+
+      - name: Build processed datasets
+        run: python src/build_wpba_helpers.py --input data/wpba_stats_2026_clean.xlsx --output-dir outputs
+
+      - name: Upload processed outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: wpba-processed-outputs
+          path: outputs/
+

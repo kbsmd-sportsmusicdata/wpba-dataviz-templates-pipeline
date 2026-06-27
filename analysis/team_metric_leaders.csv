@@ -1,0 +1,71 @@
+metric,metric_label,rank,leader,value,sort_direction
+ppg,points per game,1,Bay City Blaze,100.0,descending
+ppg,points per game,2,Royals,87.0,descending
+ppg,points per game,3,Oakland Swish,79.0,descending
+ppg,points per game,4,Bay Area Phoenix,78.5,descending
+ppg,points per game,5,SF Riptide,71.0,descending
+opp_ppg,opponent points per game,1,Alameda Wolves,63.5,ascending
+opp_ppg,opponent points per game,2,Bay City Blaze,68.0,ascending
+opp_ppg,opponent points per game,3,Hayward Reign,74.5,ascending
+opp_ppg,opponent points per game,4,Oakland Swish,78.5,ascending
+opp_ppg,opponent points per game,5,Bay Area Phoenix,82.0,ascending
+score_margin_pg,score margin per game,1,Bay City Blaze,32.0,descending
+score_margin_pg,score margin per game,2,Alameda Wolves,6.5,descending
+score_margin_pg,score margin per game,3,Royals,4.5,descending
+score_margin_pg,score margin per game,4,Oakland Swish,0.5,descending
+score_margin_pg,score margin per game,5,Bay Area Phoenix,-3.5,descending
+off_rating,offensive rating,1,Bay City Blaze,109.57703265395575,descending
+off_rating,offensive rating,2,Royals,91.38655462184872,descending
+off_rating,offensive rating,3,Alameda Wolves,87.96179944709726,descending
+off_rating,offensive rating,4,Bay Area Phoenix,86.77868671235905,descending
+off_rating,offensive rating,5,Oakland Swish,86.69885864793679,descending
+def_rating,defensive rating,1,Bay City Blaze,74.28446580729735,ascending
+def_rating,defensive rating,2,Alameda Wolves,76.30377313145878,ascending
+def_rating,defensive rating,3,Oakland Swish,86.6063548102383,ascending
+def_rating,defensive rating,4,Royals,90.28233749179252,ascending
+def_rating,defensive rating,5,Hayward Reign,91.72617581876383,ascending
+net_rating,net rating,1,Bay City Blaze,35.2925668466584,descending
+net_rating,net rating,2,Alameda Wolves,11.65802631563848,descending
+net_rating,net rating,3,Royals,1.1042171300562131,descending
+net_rating,net rating,4,Oakland Swish,0.0925038376984872,descending
+net_rating,net rating,5,Bay Area Phoenix,-8.43729099316812,descending
+efg_pct,effective field goal percentage,1,Bay City Blaze,0.5548387096774193,descending
+efg_pct,effective field goal percentage,2,Royals,0.4722222222222222,descending
+efg_pct,effective field goal percentage,3,SF Riptide,0.4166666666666667,descending
+efg_pct,effective field goal percentage,4,Hayward Reign,0.4124087591240876,descending
+efg_pct,effective field goal percentage,5,Oakland Swish,0.4117647058823529,descending
+ts_pct,true shooting percentage,1,Bay City Blaze,0.5899008966493628,descending
+ts_pct,true shooting percentage,2,Royals,0.4904171364148816,descending
+ts_pct,true shooting percentage,3,SF Riptide,0.4732071447613969,descending
+ts_pct,true shooting percentage,4,Oakland Swish,0.4560147771877164,descending
+ts_pct,true shooting percentage,5,Hayward Reign,0.4436325678496868,descending
+tov_pct,turnover rate,1,Alameda Wolves,0.1319426991706458,ascending
+tov_pct,turnover rate,2,Royals,0.1628151260504201,ascending
+tov_pct,turnover rate,3,Titans,0.1952648279228704,ascending
+tov_pct,turnover rate,4,Oakland Swish,0.1975417032484635,ascending
+tov_pct,turnover rate,5,Hayward Reign,0.2172891707775428,ascending
+oreb_pct,offensive rebound rate,1,Bay Area Phoenix,0.5473684210526316,descending
+oreb_pct,offensive rebound rate,2,Bay City Blaze,0.4142857142857143,descending
+oreb_pct,offensive rebound rate,3,Titans,0.3814432989690721,descending
+oreb_pct,offensive rebound rate,4,SF Riptide,0.3287671232876712,descending
+oreb_pct,offensive rebound rate,5,Oakland Swish,0.2872340425531915,descending
+dreb_pct,defensive rebound rate,1,Oakland Swish,0.7439024390243902,descending
+dreb_pct,defensive rebound rate,2,Alameda Wolves,0.7058823529411765,descending
+dreb_pct,defensive rebound rate,3,SF Riptide,0.6875,descending
+dreb_pct,defensive rebound rate,4,Hayward Reign,0.6805555555555556,descending
+dreb_pct,defensive rebound rate,5,Bay City Blaze,0.6703296703296703,descending
+ft_rate,free throw rate,1,Titans,0.3561643835616438,descending
+ft_rate,free throw rate,2,SF Riptide,0.3106060606060606,descending
+ft_rate,free throw rate,3,Oakland Swish,0.3006535947712418,descending
+ft_rate,free throw rate,4,Alameda Wolves,0.2765957446808511,descending
+ft_rate,free throw rate,5,Hayward Reign,0.2700729927007299,descending
+three_pt_rate,three point attempt rate,1,Hayward Reign,0.5109489051094891,descending
+three_pt_rate,three point attempt rate,2,Titans,0.4383561643835616,descending
+three_pt_rate,three point attempt rate,3,Oakland Swish,0.3986928104575163,descending
+three_pt_rate,three point attempt rate,4,Alameda Wolves,0.3971631205673759,descending
+three_pt_rate,three point attempt rate,5,Bay City Blaze,0.3935483870967742,descending
+pace,pace,1,Royals,19.036097599992004,descending
+pace,pace,2,Oakland Swish,18.229286493082995,descending
+pace,pace,3,Bay City Blaze,18.178558623162424,descending
+pace,pace,4,Bay Area Phoenix,18.03411050527806,descending
+pace,pace,5,Titans,16.385951756030497,descending

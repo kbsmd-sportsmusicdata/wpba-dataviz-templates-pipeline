@@ -1,0 +1,61 @@
+metric,metric_label,rank,leader,value,sort_direction
+ppg,points per game,1,Jessenia Lawson,26.0,descending
+ppg,points per game,2,Koi Love,22.0,descending
+ppg,points per game,3,Nevaeh Asiasi,20.5,descending
+ppg,points per game,4,Chance Bucher,20.0,descending
+ppg,points per game,5,Ashiala Jackson,18.0,descending
+rpg,rebounds per game,1,Alisha Wilson,13.5,descending
+rpg,rebounds per game,2,Khalis Cain,13.5,descending
+rpg,rebounds per game,3,Ashiala Jackson,11.5,descending
+rpg,rebounds per game,4,Courtney Range,10.5,descending
+rpg,rebounds per game,5,Madison Michelis,9.5,descending
+apg,assists per game,1,Miyu Mizukawa,6.5,descending
+apg,assists per game,2,Koi Love,6.0,descending
+apg,assists per game,3,Jada Lewis,4.5,descending
+apg,assists per game,4,Jada Holland,4.5,descending
+apg,assists per game,5,Micah Gray,4.5,descending
+ts_pct,true shooting percentage,1,Brandi Williams,0.7516703786191536,descending
+ts_pct,true shooting percentage,2,Teionnii McDaniel,0.7135826771653543,descending
+ts_pct,true shooting percentage,3,Isabella Mauricio,0.6991051454138703,descending
+ts_pct,true shooting percentage,4,Nevaeh Asiasi,0.6462799495586381,descending
+ts_pct,true shooting percentage,5,Chandler Prater,0.6439393939393939,descending
+usage_pct,usage percentage,1,Chance Bucher,0.3526228669345309,descending
+usage_pct,usage percentage,2,Ayanna Mazyck,0.3515578291162449,descending
+usage_pct,usage percentage,3,Jessenia Lawson,0.3046707186512699,descending
+usage_pct,usage percentage,4,Sidney Richards,0.3009344405113078,descending
+usage_pct,usage percentage,5,Koi Love,0.2946258095238095,descending
+pts_per36,points per 36,1,Koi Love,27.936507936507937,descending
+pts_per36,points per 36,2,Jessenia Lawson,25.82674558172261,descending
+pts_per36,points per 36,3,Chance Bucher,24.31036229192694,descending
+pts_per36,points per 36,4,Andriana Avent,22.338902147971357,descending
+pts_per36,points per 36,5,Brandi Williams,22.02433553123513,descending
+reb_per36,rebounds per 36,1,Alisha Wilson,16.525834367614802,descending
+reb_per36,rebounds per 36,2,Khalis Cain,14.569000404694457,descending
+reb_per36,rebounds per 36,3,Courtney Range,14.427480916030534,descending
+reb_per36,rebounds per 36,4,Madison Michelis,13.65269461077844,descending
+reb_per36,rebounds per 36,5,Ashiala Jackson,12.426275269010848,descending
+ast_per36,assists per 36,1,Koi Love,7.619047619047619,descending
+ast_per36,assists per 36,2,Miyu Mizukawa,6.087171416307895,descending
+ast_per36,assists per 36,3,Jada Holland,6.075037968987306,descending
+ast_per36,assists per 36,4,Ashley Hart,5.0013120726116425,descending
+ast_per36,assists per 36,5,Micah Gray,4.993603871584236,descending
+stl_per36,steals per 36,1,Jessenia Lawson,4.470013658375067,descending
+stl_per36,steals per 36,2,Taylor Linzie,4.375,descending
+stl_per36,steals per 36,3,Andriana Avent,4.295942720763723,descending
+stl_per36,steals per 36,4,Ameela Li,4.254732404908701,descending
+stl_per36,steals per 36,5,Courtney Range,4.122137404580153,descending
+blk_per36,blocks per 36,1,Koi Love,2.5396825396825395,descending
+blk_per36,blocks per 36,2,Angel Jackson,2.1176470588235294,descending
+blk_per36,blocks per 36,3,Jasmyne Huggins,1.7910447761194028,descending
+blk_per36,blocks per 36,4,Andriana Avent,1.718377088305489,descending
+blk_per36,blocks per 36,5,Ashley Hart,1.6671040242038806,descending
+avg_impact_score,average impact score,1,Koi Love,46.47945748456961,descending
+avg_impact_score,average impact score,2,Jessenia Lawson,45.54859343027323,descending
+avg_impact_score,average impact score,3,Courtney Range,38.9341703725815,descending
+avg_impact_score,average impact score,4,Ashiala Jackson,36.090863102744194,descending
+avg_impact_score,average impact score,5,Nevaeh Asiasi,35.855060426916296,descending
+watchability_score,watchability score,1,Koi Love,91.8,descending
+watchability_score,watchability score,2,Courtney Range,90.3,descending
+watchability_score,watchability score,3,Teionnii McDaniel,88.3,descending
+watchability_score,watchability score,4,Nevaeh Asiasi,86.4,descending
+watchability_score,watchability score,5,Brandi Williams,83.5,descending
